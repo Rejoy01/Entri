@@ -1,0 +1,9 @@
+here we created a token using jwtwebtoken module
+
+created using jwt.sign() method
+
+jwt.sign( payload , secret_key from env file, expiresIn   ) method
+
+set that in a cookie using res.cookie() method
+
+es.cookie("token",token) 

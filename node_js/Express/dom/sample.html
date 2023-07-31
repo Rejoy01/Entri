@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1 id="title">title</h1>
+        <span class="text"></span>
+        <h2 id="Firstelement">h2 headhing</h2>
+        <a href="" class="texts"></a>
+    </div>
+    <div>
+        <h4 class="classValue"> sub heading</h4>
+        <span class="text"></span>
+    
+        <a href="#" class="classValue" >Link</a>
+        <h2 class="Second element"></h2>
+        <a href="#" id="google" class="texts">google</a>
+
+        <!-- object selection -->
+        <form action="api/register" method="post" id="signup" onsubmit="return registerValidation()">
+            <!-- <label for="fname">Name</label> -->
+            <!--Instead of labels-->
+              <!--constrain validation-->
+            Fullname: <input type="text" id="text" placeholder="valid so it has green borders" value="" maxlength="10"><br>
+            <span id="emptyName" style="color: red;"></span> <br>
+            <!-- <label for="email">Email</label> -->
+            Email: <input type="email" name="email" value="expecting mailId we passing string so red border" ><br>
+            <span id="emptyEmail" style="color: red;"></span> <br>
+          
+            Phone Number : <input type="number" name="phoneNumber" required><br>
+            <span id="notAnumber" style="color: red;"></span>
+            <!-- <label for="password">Password</label> -->
+            Password: <input type="password" name="password" ><br>
+            <span id="emptyPassword" style="color: red;"></span> <br>
+            
+            <button id="submit">Submit</button>
+
+            
+        </form>
+
+        <span id="Welcome" style="color: green;"></span> <br>
+
+        <ul>
+            <li>amazon</li>
+            <li>facebook</li>
+            <li>flipkart</li>
+            <li>google</li>
+            <li id="mouseover" onmouseover="Mouseover()">zoho</li>
+        </ul>
+        <p id="change" onclick="Clickme()" >click me to change para</p>
+        <p id="change" onclick="ClickmeEvent(event)" >i will change whne clicked</p>
+
+        <button id="clickEvent">click me !</button>
+
+        
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

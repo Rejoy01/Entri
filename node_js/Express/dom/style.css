@@ -1,0 +1,28 @@
+/* eg pseudo Class */
+
+#google:hover{
+    color: red;
+}
+
+#google:visited{
+    color: green;
+}
+/* #submit:hover{
+    color: red;
+    background-color: green;
+} */
+
+input:invalid{
+    border: solid 2px red;
+}
+input:valid{
+    border: solid 2px green;
+}
+
+#text:hover{
+    color:aqua
+}
+/* selecting multiple elements tags  */
+ul li:nth-child(even){
+    color: red;
+}

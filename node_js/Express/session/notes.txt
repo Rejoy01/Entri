@@ -1,0 +1,4 @@
+app.use(express.urlencoded({extended:true}));
+this middleware is use to get data from request body 
+
+like so we use cookie-parser to get data from session
