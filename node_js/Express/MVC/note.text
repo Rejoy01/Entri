@@ -1,0 +1,19 @@
+400,404- ilatha resource request chyumbol - err
+201 - new creation - s
+200 - status ok
+500 - internal server error
+300 - redirection
+
+jsonplaceholder
+
+
+
+app.post("/api/v1/register",userRegister)
+
+instead of above
+
+we created routes in routes folder 
+and use router.post("/register",userRegister);
+
+app.use("/api/v1",userRoutes)
+api with all user actions are in userRoutes now
